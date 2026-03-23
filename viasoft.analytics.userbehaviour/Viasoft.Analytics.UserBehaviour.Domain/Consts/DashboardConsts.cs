@@ -1,0 +1,10 @@
+﻿namespace Viasoft.Analytics.UserBehaviour.Domain.Consts
+{
+    public class DashboardConsts
+    {
+        public const string DashboardJson =
+            "{\"board\":[{\"id\":198,\"title\":\"prancheta\",\"structure\":\"33-33-33\",\"rows\":[{\"columns\":[{\"flex\":\"33.333333333333336\",\"gadgets\":[{\"componentType\":\"UserBehaviourOnlineTenantsGadget\",\"name\":\"dashBoard.onlineTenants.onlineTenantsTitle\",\"description\":\"dashBoard.onlineTenants.onlineTenantsDescription\",\"icon\":\"/assets/user-tie-solid.svg\",\"instanceId\":1582657637876,\"permissionName\":\"\",\"tags\":[{\"facet\":\"General\",\"name\":\"OnlineTenantsCount\"}],\"config\":{\"propertyPages\":[{\"displayName\":\"Run\",\"groupId\":\"run\",\"properties\":{}}]},\"actions\":[{\"name\":\"dashBoard.add\"}]}]},{\"flex\":\"33.333333333333336\",\"gadgets\":[{\"componentType\":\"UserBehaviourOnlineUsersGadget\",\"name\":\"dashBoard.onlineUsers.onlineUsersTitle\",\"description\":\"dashBoard.onlineUsers.onlineUsersDescription\",\"icon\":\"/assets/user-solid.svg\",\"instanceId\":1582657637877,\"permissionName\":\"\",\"tags\":[{\"facet\":\"General\",\"name\":\"OnlineUsersCount\"}],\"config\":{\"propertyPages\":[{\"displayName\":\"Run\",\"groupId\":\"run\",\"properties\":{}}]},\"actions\":[{\"name\":\"dashBoard.add\"}]}]},{\"flex\":\"33.333333333333336\",\"gadgets\":[{\"componentType\":\"UserBehaviourOnlineAppsGadget\",\"name\":\"dashBoard.onlineApps.onlineAppsTitle\",\"description\":\"dashBoard.onlineApps.onlineAppsDescription\",\"icon\":\"/assets/server-solid.svg\",\"instanceId\":1582658644748,\"permissionName\":\"\",\"tags\":[{\"facet\":\"General\",\"name\":\"OnlineAppsCount\"}],\"config\":{\"propertyPages\":[{\"displayName\":\"Run\",\"groupId\":\"run\",\"properties\":{}}]},\"actions\":[{\"name\":\"dashBoard.add\"}]}]}]}]}]}";
+
+        public const string ConsumerId = "2CE42662-528A-4083-957B-B6D92F1980BF";
+    }
+}
