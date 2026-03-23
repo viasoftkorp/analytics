@@ -12,14 +12,14 @@
     <ItemGroup>
         <PackageReference Include="NodaTime" Version="3.1.9" />
       <PackageReference Include="NEST" Version="7.9.0" />
-      <PackageReference Include="Viasoft.Core.DDD" Version="4.12.1" />
-      <PackageReference Include="Viasoft.Core.DDD.Application" Version="4.12.1" />
-      <PackageReference Include="Viasoft.Core.IoC" Version="4.12.1" />
-      <PackageReference Include="Viasoft.Core.Mapper" Version="4.12.1" />
-      <PackageReference Include="Viasoft.Core.ServiceBus" Version="4.12.1" />
-      <PackageReference Include="Viasoft.Core.ServiceDiscovery" Version="4.12.1" />
-      <PackageReference Include="Viasoft.Data.Extensions" Version="4.12.1" />
-      <PackageReference Include="Viasoft.Data.Seeder" Version="4.12.1" />
+      <PackageReference Include="Viasoft.Core.DDD" Version="4.12.52" />
+      <PackageReference Include="Viasoft.Core.DDD.Application" Version="4.12.52" />
+      <PackageReference Include="Viasoft.Core.IoC" Version="4.12.52" />
+      <PackageReference Include="Viasoft.Core.Mapper" Version="4.12.52" />
+      <PackageReference Include="Viasoft.Core.ServiceBus" Version="4.12.52" />
+      <PackageReference Include="Viasoft.Core.ServiceDiscovery" Version="4.12.52" />
+      <PackageReference Include="Viasoft.Data.Extensions" Version="4.12.52" />
+      <PackageReference Include="Viasoft.Data.Seeder" Version="4.12.52" />
     </ItemGroup>
 
 </Project>

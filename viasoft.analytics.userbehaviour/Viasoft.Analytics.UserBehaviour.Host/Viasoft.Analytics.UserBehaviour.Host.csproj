@@ -16,25 +16,25 @@
 
     <ItemGroup>
         <PackageReference Include="TimeZoneConverter" Version="3.2.0" />
-        <PackageReference Include="Viasoft.Core" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.AspNetCore" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.AspNetCore.Extensions" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.Authentication.Proxy" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.Authorization.Proxy" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.Dashboard.Proxy" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.ElasticSearch" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.Emailing" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.EntityFrameworkCore" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.Identity.AspNetCore" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.MultiTenancy.AspNetCore" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.ServiceBus.AspNetCore" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.ServiceBus.PostgreSQL" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.WebHost" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.BackgroundJobs" Version="4.12.1" />
-        <PackageReference Include="Viasoft.PushNotifications.AspNetCore" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.BackgroundJobs.PostgreSQL" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.API.EmailTemplate" Version="4.12.1" />
-        <PackageReference Include="Viasoft.Core.API.Reporting" Version="4.12.1" />
+        <PackageReference Include="Viasoft.Core" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.AspNetCore" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.AspNetCore.Extensions" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.Authentication.Proxy" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.Authorization.Proxy" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.Dashboard.Proxy" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.ElasticSearch" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.Emailing" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.EntityFrameworkCore" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.Identity.AspNetCore" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.MultiTenancy.AspNetCore" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.ServiceBus.AspNetCore" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.ServiceBus.PostgreSQL" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.WebHost" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.BackgroundJobs" Version="4.12.52" />
+        <PackageReference Include="Viasoft.PushNotifications.AspNetCore" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.BackgroundJobs.PostgreSQL" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.API.EmailTemplate" Version="4.12.52" />
+        <PackageReference Include="Viasoft.Core.API.Reporting" Version="4.12.52" />
     </ItemGroup>
 
     <ItemGroup>
