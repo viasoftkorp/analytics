@@ -35,6 +35,7 @@ def buildParcelsMaxTime = 10   // OPCIONAL - default 10
 def publishParcelsMaxTime = 5  // OPCIONAL - default 5
 
 def skipTests = true             // OPCIONAL - default false
+def runAsContainer = true          // OPCIONAL - default false
 def shouldLogEnvVariables = true // OPCIONAL - default false
 def shouldLogVersions = true     // OPCIONAL - default true
 
@@ -72,6 +73,7 @@ def data = """ {
     "publishParcelsMaxTime": "${publishParcelsMaxTime}",
 
     "skipTests": ${skipTests},
+    "runAsContainer": ${runAsContainer},
     "shouldLogEnvVariables": ${shouldLogEnvVariables},
     "shouldLogVersions": ${shouldLogVersions},
     "githubRepository": "${githubRepo}"
