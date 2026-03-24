@@ -1,0 +1,32 @@
+<ng-container *ngIf="finishGettingGraphData">
+  <vs-gadget [instanceId]="instanceId" [filters]="filters" minHeight="400" [hideTitle]="true" [hideFilterButton]="false"
+    [hideSettingsButton]="true">
+    <ng-container actions>
+      <vs-button [disabled]="disableLeftNavigation" model="icon" icon="arrow-to-left" (clickEvent)="goStart()"
+        tooltip="dashBoard.licenseUsage.startView"></vs-button>
+      <vs-button [disabled]="disableLeftNavigation" model="icon" icon="arrow-left" (clickEvent)="leftShift()"
+        tooltip="dashBoard.licenseUsage.leftView"></vs-button>
+      <vs-button [disabled]="leftShiftIteractions.length === 0" model="icon" icon="arrow-right"
+        (clickEvent)="rightShift()" tooltip="dashBoard.licenseUsage.rightView"></vs-button>
+      <vs-button [disabled]="leftShiftIteractions.length === 0" model="icon" icon="arrow-to-right" (clickEvent)="goEnd()"
+        tooltip="dashBoard.licenseUsage.endView"></vs-button>
+    </ng-container>
+    <apx-chart #chart [series]="chartOptions.series" [chart]="chartOptions.chart" [xaxis]="chartOptions.xaxis"
+      [stroke]="chartOptions.stroke" [tooltip]="chartOptions.tooltip" [dataLabels]="chartOptions.dataLabels"
+      [fill]="chartOptions.fill" [markers]="chartOptions.markers" [theme]="chartOptions.theme"
+      [yaxis]="chartOptions.yaxis" [title]="chartOptions.title"></apx-chart>
+    <ng-template #filters>
+      <div content>
+        <vs-form>
+          <form *ngIf="form" [formGroup]="form" group-1>
+            <vs-select formControlName="select"
+              placeholder="dashBoard.licenseUsage.interval.title" [options]="selection" [cleanable]="false">
+            </vs-select>
+            <vs-button *vsFooter [disabled]="!form.dirty || form.invalid" type="save" label="dashBoard.save"
+              (clickEvent)="applyFilters()"></vs-button>
+          </form>
+        </vs-form>
+      </div>
+    </ng-template>
+  </vs-gadget>
+</ng-container>

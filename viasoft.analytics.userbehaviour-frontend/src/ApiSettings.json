@@ -1,0 +1,9 @@
+{
+    "clients": [
+        {
+            "name": "@viasoft/user-behaviour",
+            "baseUrl": "http://192.168.15.6:14621/swagger/1.0.0.0/swagger.json",
+            "outPath": "clients/user-behaviour"
+        }
+    ]
+}
