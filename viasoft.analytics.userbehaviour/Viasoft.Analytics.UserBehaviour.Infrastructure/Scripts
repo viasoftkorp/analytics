@@ -1,0 +1,10 @@
+cd .\Viasoft.Analytics.UserBehaviour.Infrastructure\
+dotnet ef migrations add "Adding ..." -s ..\Viasoft.Analytics.UserBehaviour.Host\ --context ViasoftAnalyticsUserBehaviourDbContext
+
+dotnet ef database update -s ..\Viasoft.Analytics.UserBehaviour.Host\ --context ViasoftAnalyticsUserBehaviourDbContext
+
+revert migration
+    dotnet ef --startup-project ..\Viasoft.Analytics.UserBehaviour.Host\ database update "Miragtion name" --context ViasoftAnalyticsUserBehaviourDbContext
+    
+remove migration
+    dotnet ef --startup-project ..\Viasoft.Analytics.UserBehaviour.Host\ migrations remove --context ViasoftAnalyticsUserBehaviourDbContext
