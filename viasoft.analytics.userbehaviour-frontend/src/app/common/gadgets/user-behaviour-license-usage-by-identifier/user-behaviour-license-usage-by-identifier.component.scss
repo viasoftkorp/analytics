@@ -1,0 +1,10 @@
+:host ::ng-deep {
+    width: 100%;
+    .tooltip-graph {
+        padding-right: 6px;
+        padding-left: 6px;
+        p {
+            font-size: 11px;
+        }
+    }
+}

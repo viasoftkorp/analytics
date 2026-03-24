@@ -1,0 +1,14 @@
+<vs-tabs-view-template>
+    <ng-container actions>
+        <div class="buttons">
+        <vs-button model="icon" icon="plus" label="dashBoard.addGadget" placeholder="dashBoard.addGadget"
+                    (clickEvent)="dashboard.openAddGadget()"></vs-button>
+        <vs-button model="icon" icon="cog" label="dashBoard.editPanels" placeholder="dashBoard.editPanels"
+                    (clickEvent)="dashboard.openConfigurations()"></vs-button>
+        <vs-button model="icon" icon="game-board-alt" label="dashBoard.editLayout" placeholder="dashBoard.editLayout"
+                    (clickEvent)="dashboard.editLayout($event)"></vs-button>
+        </div>
+    </ng-container>
+    <vs-dashboard #dashboard [customTabs]="false">
+    </vs-dashboard>
+</vs-tabs-view-template>
